@@ -4,6 +4,7 @@ import './index.css'
 import {Nav} from "./Components/Nav/Nav.jsx"
 import { Hero } from './Components/Hero/Hero.jsx'
 import { Cuadrados } from './Components/Cuadrados/Cuadrados.jsx'
+import { Portfolio } from './Components/Portfolio/Portfolio.jsx'
 
 
 
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Nav/>
   <Hero/>
   <Cuadrados/>
+  <Portfolio/>
   </React.StrictMode>,
 )
