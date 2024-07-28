@@ -7,6 +7,7 @@ import { Cuadrados } from './Components/Cuadrados/Cuadrados.jsx'
 import { Portfolio } from './Components/Portfolio/Portfolio.jsx'
 import { LineaDeTiempo } from './Components/LineaDeTiempo/LineaDeTiempo.jsx'
 import { Formulario } from './Components/Formulario/Formulario.jsx'
+import { Footer } from './Components/Footer/Footer.jsx'
 
 
 
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Portfolio/>
   <LineaDeTiempo/>
   <Formulario/>
+  <Footer/>
   </React.StrictMode>,
 )
