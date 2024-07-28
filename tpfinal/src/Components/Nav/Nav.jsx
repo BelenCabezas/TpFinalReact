@@ -6,7 +6,8 @@ const Nav = () => {
     <div>
       <img src={Anillos} alt="Logo de anillos" />
       <button>Sobre mi</button>
-      <button>Portfolio</button> <button>Blog</button>
+      <button>Portfolio</button> 
+      <button>Blog</button>
       <button>Contactame</button>
       <button>Descarga Cv</button>
     </div>
