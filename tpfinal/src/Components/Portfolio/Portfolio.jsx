@@ -1,8 +1,8 @@
 import React from "react";
-import tpo1 from "../../assets/Imagenes/tpo1.png";
-import tpo1b from "../../assets/Imagenes/tpo1b.png";
-import tpoa from "../../assets/Imagenes/tpoa.png";
-import tpob from "../../assets/Imagenes/tpob.png";
+import tpo1 from "../../assets/Imagenes/tpo 1.png";
+import tpo1b from "../../assets/Imagenes/tpo 1b.png";
+import tpoa from "../../assets/Imagenes/tpo a.png";
+import tpob from "../../assets/Imagenes/tpo b.png";
 
 const Portfolio =()=>{
     return(
