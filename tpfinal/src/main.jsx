@@ -6,6 +6,7 @@ import { Hero } from './Components/Hero/Hero.jsx'
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <Nav/>

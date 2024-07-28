@@ -1,4 +1,4 @@
-import { Anillos } from "../../assets/Imagenes/Anillos.png";
+import  Anillos  from "../../assets/Imagenes/Anillos.png";
 import React from "react";
 
 const Nav = () => {
