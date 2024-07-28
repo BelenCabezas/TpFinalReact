@@ -18,13 +18,13 @@ const Portfolio =()=>{
 
         <div class="Trabajos">
             {/*<!--Tpo 1-->*/}
-            <img src="img/tpo 1.png">
+            <img src="img/tpo 1.png"/>
            { /*<!--Tpo 2-->*/}
-            <img src="img/tpo 1b.png">
+            <img src="img/tpo 1b.png"/>
             {/*<!--Tpo 3-->*/}
-            <img src="img/tpo a.png">
+            <img src="img/tpo a.png"/>
            { /*<!--Tpo 4-->*/}
-            <img src="img/tpo b.png">
+            <img src="img/tpo b.png"/>
         </div>
         <div class="Btn">
           <button>Ver todos</button>
