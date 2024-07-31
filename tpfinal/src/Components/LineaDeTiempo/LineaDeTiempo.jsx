@@ -1,5 +1,5 @@
 import React from "react";
-
+import './LineaDeTiempo.css'
 const LineaDeTiempo=()=>{
     return(
         <section className="Lineas">

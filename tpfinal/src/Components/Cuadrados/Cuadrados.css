@@ -1,0 +1,91 @@
+/*CUADRADOS HORIZONTAL*/
+
+.Cuadrados{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-weight: 35px;
+    font-style: normal;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+  }
+  
+  
+  .Premio{ 
+    border: rgb(213, 34, 58) 3px dashed;
+    width: 350px;
+    border-top-right-radius: 45px;
+    margin: 30px 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .Premio i{
+    position: relative;
+    top: -23px;
+    left: 45px;
+  }
+  
+  .Clientes{
+    border: rgb(213, 34, 58) 3px solid;
+    width: 350px;
+    border-top-right-radius:45px;
+    margin: 30px 0px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .Clientes i{
+    position: relative;
+    top: -34px;
+    left: 45px;
+  }
+  
+  .Exp{
+    border: rgb(213, 34, 58) 3px dashed;
+    width: 350px;
+    border-top-right-radius: 45px;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .Exp i{
+    position: relative;
+    top: -44px;
+    left: 45px;
+  }
+  
+  .Proyectos{
+    border: rgb(213, 34, 58) 3px dashed;
+    width: 350px;
+    border-top-right-radius: 45px;
+    margin: 30px 0px;
+    padding:0%;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .Proyectos i{
+    position: relative;
+    top: -22px;
+    left: 45px;
+  }
+  
+  
+  .a{ 
+    background-color: rgb(42, 35, 68);
+  }
+  
+  .Cuadrados i{
+   background-color: rgb(213, 34, 58) ;
+    width: 30px;
+    padding: 10px;
+    display: flex;
+   justify-content: space-between;
+   
+  }

@@ -1,4 +1,5 @@
 import React from "react";
+import './Portfolio.css'
 import tpo1 from "../../assets/Imagenes/tpo 1.png";
 import tpo1b from "../../assets/Imagenes/tpo 1b.png";
 import tpoa from "../../assets/Imagenes/tpo a.png";

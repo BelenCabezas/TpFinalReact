@@ -1,15 +1,29 @@
 import React from "react";
+import '@fontsource/roboto';
+import { Box } from "@chakra-ui/react";
 
 const Cuadrados=()=>{
     return(
-        <section className="a">
-        <div className="Cuadrados">
-          <div className="Premio">
+     <Box bg='#2A2344'>
+       <Box as="Cuadrados"
+       display='flex'
+       justifyContent='space-around'
+       fontFamily='roboto'
+       color='white'
+       pt='60px'
+       pb='60px'>
+    
+          <Box as="Premio"
+          borderStyle='dashed'
+          borderColor='#D5223A'
+          fontSize='30px'
+          textAlign='center'>
+            
           {/*<!--Primer cuadrado-->*/}
             <i className="bi bi-trophy"></i>
          <h1>0+</h1>
          <h2>Premios</h2>
-          </div>
+          </Box>
           
       <div className="Clientes">
         {/*<!--Segundo cuadrado-->*/}
@@ -32,8 +46,9 @@ const Cuadrados=()=>{
         <h2>Proyectos</h2>
       </div>
         
-        </div>
-        </section>
+        
+       </Box>
+        </Box>
     )
 }
 

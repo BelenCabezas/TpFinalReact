@@ -1,0 +1,79 @@
+/*PORTAFOLIO*/
+.Portafolio-Proyecto{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(25, 20, 42);
+    padding: 40px;
+    font-family: "Cactus Classical Serif", serif;
+    font-style: normal;
+    font-weight: lighter;
+    color: white;
+    padding-top: 150px;
+  }
+  .Portafolio p{
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+  .Portafolio h2{
+    font-size: 50px;
+  }
+  
+  .Proyectos2{
+    background-color: rgb(29, 24, 47);
+    padding: 50px 0px;
+    border-radius: 5px;
+  }
+  
+  .Proyectos2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 50px 30px;
+    transition: background;
+    
+  }
+  
+   .Proyectos2 a:hover{
+    background: rgb(214, 34, 59);
+    border-radius: 5px;
+   }
+  
+  
+  /*IMG PORTAFOLIO*/
+  
+  .Trabajos{
+   background-color: rgb(25, 20, 42);
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 10px 5px;
+  }
+  
+  .Trabajos img{
+    width: 700px;
+    height: 550px;
+    padding: 20px 20px;
+  }
+  
+  .Btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 20, 42);
+  } 
+  
+  .Btn button{
+    background-color: rgb(213, 34, 58);
+    color: white;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding: 30px 60px;
+    margin-top: 55px;
+    margin-bottom: 138px;
+    cursor: pointer;
+    
+  }
