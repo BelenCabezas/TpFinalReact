@@ -44,13 +44,13 @@ const Portfolio = () => {
 
       <Tabs variant='unstyled'  >
         <TabList >
-          <Tab  _selected={{ color: "white", bg: "#D6223B" }}>
+          <Tab p='10px' fontSize='20px' bg='#1D182F' _selected={{ color: "white", bg: "#D6223B" }}>
             Todos los trabajos
           </Tab>
-          <Tab _selected={{ color: "white", bg: "#D6223B" }}>
+          <Tab p='10px' fontSize='20px' bg='#1D182F' _selected={{ color: "white", bg: "#D6223B" }}>
             Proyecto personal
           </Tab>
-          <Tab isDisabled>Proyecto profesional</Tab>
+          <Tab p='10px' fontSize='20px' bg='#1D182F' isDisabled>Proyecto profesional</Tab>
         </TabList>
         
         <TabPanels>
@@ -71,7 +71,7 @@ const Portfolio = () => {
         </TabPanels>
       </Tabs>
       
-    </Flex>
+   </Flex>
     <Flex justifyContent='center'
     bg="#19142A">
       <Button _hover={{ bg: "#D6223B" }} color='white'
