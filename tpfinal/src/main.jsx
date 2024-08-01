@@ -33,16 +33,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Nav/>
     <Hero/>
     <Cuadrados/>
-
+<Portfolio/>
     <LineaDeTiempo/>
+<Formulario/>
+    <Footer/>
     </ChakraProvider>
    
   
   
   
-  <Portfolio/>
   
-  <Formulario/>
-  <Footer/>
+  
+  
+  
   </React.StrictMode>,
 )
