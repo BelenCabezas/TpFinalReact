@@ -1,9 +1,7 @@
 import React from "react";
-
 import telefono from "../../assets/Iconos/telefono.png";
 import email from "../../assets/Iconos/email.png";
 import location from "../../assets/Iconos/location.png";
-
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import "@fontsource/dm-serif-display";
 
