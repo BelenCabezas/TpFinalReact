@@ -3,9 +3,7 @@ import React from "react";
 import telefono from "../../assets/Iconos/telefono.png";
 import email from "../../assets/Iconos/email.png";
 import location from "../../assets/Iconos/location.png";
-import fbcolor from "../../assets/Iconos/fbcolor.svg";
-import twcolor from "../../assets/Iconos/twcolor.svg";
-import igcolor from "../../assets/Iconos/igcolor.svg";
+
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import "@fontsource/dm-serif-display";
 
@@ -91,8 +89,8 @@ const Formulario = () => {
             Dejame tu consulta
           </Text>
           <div className="Formulario-completo">
-            <Box as="NombreEmail">
-              <Box
+            <Box as="NombreEmail" >
+              <Box 
                 bg="	#19142A"
                 color="gray"
                 border="solid gray 1px"
@@ -169,7 +167,7 @@ const Formulario = () => {
               px="50px"
               border="none"
             >
-              {" "}
+              
               Enviar
             </Button>
           </div>
