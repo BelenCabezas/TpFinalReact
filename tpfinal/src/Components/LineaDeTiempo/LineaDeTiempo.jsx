@@ -1,5 +1,5 @@
 import React from "react";
-//import './LineaDeTiempo.css'
+
 import { Box,Flex,Text} from "@chakra-ui/react";
 import "@fontsource/cactus-classical-serif";
 
