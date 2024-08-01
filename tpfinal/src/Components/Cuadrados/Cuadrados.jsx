@@ -12,14 +12,14 @@ const Cuadrados=()=>{
       pb='60px'
       bg='#2A2344'>
 
-        <Box class="Premio"
+        <Box className="Premio"
         border='3px dashed #D5223A'
         borderTopRightRadius='45px'
         m='30px 0px'
         w='350px'
         fontSize='30px'
         textAlign='center'
-        pb='20px'
+        pb='40px'
         >
        {/*!--Primer cuadrado--*/}
           <Box 
@@ -34,9 +34,24 @@ const Cuadrados=()=>{
        <h2>Premios</h2>
         </Box>
         
-    <Box class="Clientes">
+    <Box className="Clientes"
+    border='3px solid #D5223A'
+    borderTopRightRadius='45px'
+    m='30px 0px'
+    w='350px'
+    fontSize='30px'
+    textAlign='center'
+    pb='40px'
+    >
       {/*!--Segundo cuadrado--*/}
-         <Box> <i class="bi bi-people"></i></Box>
+         <Box
+          position='relative'
+          top='-23px'
+          left='45px'
+          bg='#D5223A'
+          width='45px'
+          p='10px'
+         > <i class="bi bi-people"></i></Box>
       <h1>0+</h1>
       <h2>Clientes</h2>
     </Box>
