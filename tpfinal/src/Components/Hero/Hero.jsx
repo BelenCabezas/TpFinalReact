@@ -5,6 +5,7 @@ import facebook from "../../assets/Iconos/facebook.svg";
 import twitter from "../../assets/Iconos/twitter.svg";
 import linkedin from "../../assets/Iconos/linkedin.svg";
 import { Box, Flex, Text } from "@chakra-ui/react";
+import "@fontsource/cactus-classical-serif";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         alignItems="center"
         h="100vh"
       >
-        <Flex direction="column" color="white" pl="40px">
+        <Flex direction="column" color="white" pl="40px" fontFamily='cactus-classical-serif'>
           <Text
             bg="#52182E"
             borderRadius="5px"
@@ -40,7 +41,7 @@ const Hero = () => {
           </Text>
         </Flex>
 
-        <Box w="100vh" position="relative" top="-35">
+        <Box w="46%" position="relative" top="-35">
           <img
             className="ImagenPresentacion"
             src={portfolio}

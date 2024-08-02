@@ -11,7 +11,9 @@ const Nav = () => {
           <img className="Anillos" src={Anillos} />
         </Flex>
 
-        <Stack spacing={6} direction="row" align="center" border="none">
+        <Stack spacing={6} direction="row" align="center" border="none"
+        >
+          
           <Button
             fontFamily="roboto"
             color="white"
@@ -71,6 +73,7 @@ const Nav = () => {
           >
             Descargar cv
           </Button>
+         
         </Stack>
       </Flex>
     </Box>
