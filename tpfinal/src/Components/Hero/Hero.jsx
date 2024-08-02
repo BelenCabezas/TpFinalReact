@@ -38,9 +38,8 @@ const Hero = () => {
             muchas ganas de seguir aprendiendo todo lo que pueda dentro del
             mundo it.
           </Text>
-
         </Flex>
-        
+
         <Box w="100vh" position="relative" top="-35">
           <img
             className="ImagenPresentacion"
