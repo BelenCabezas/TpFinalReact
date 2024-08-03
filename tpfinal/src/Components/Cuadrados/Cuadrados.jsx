@@ -12,13 +12,15 @@ const Cuadrados = () => {
       pt="60px"
       pb="60px"
       bg="#2A2344"
+      direction={{base:'column',md:'unset'}}
+      alignItems={{base:'center',md:'unset'}}
     >
       <Box
         className="Premio"
         border="3px dashed #D5223A"
         borderTopRightRadius="45px"
         m="30px 0px"
-        w="350px"
+        w={{base:'250px',lg:"350px"}}
         fontSize="30px"
         textAlign="center"
         pb="40px"
@@ -43,7 +45,7 @@ const Cuadrados = () => {
         border="3px solid #D5223A"
         borderTopRightRadius="45px"
         m="30px 0px"
-        w="350px"
+        w={{base:'250px',lg:"350px"}}
         fontSize="30px"
         textAlign="center"
         pb="40px"
@@ -68,7 +70,7 @@ const Cuadrados = () => {
         border="3px dashed #D5223A"
         borderTopRightRadius="45px"
         m="30px 0px"
-        w="350px"
+        w={{base:'250px',lg:"350px"}}
         fontSize="30px"
         textAlign="center"
         pb="40px"
@@ -93,7 +95,7 @@ const Cuadrados = () => {
         border="3px dashed #D5223A"
         borderTopRightRadius="45px"
         m="30px 0px"
-        w="350px"
+        w={{base:'250px',lg:"350px"}}
         fontSize="30px"
         textAlign="center"
         pb="40px"
