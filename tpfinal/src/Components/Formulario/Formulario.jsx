@@ -21,9 +21,9 @@ const Formulario = () => {
           pl={{ base: "20%", md: "10px" }}
           fontFamily="dm-serif-display"
         >
-          <Text fontSize={{ base: "35px", md: "40px" }}>Contactame</Text>
-          <Text fontSize="20px" pt="20px" fontWeight="10px">
-            Hagamos algo nuevo,diferente y mas significativo o hamos algo mas
+          <Text fontSize={{ base: "35px", md: "40px"}}>Contactame</Text>
+          <Text fontSize="20px" pt="20px" fontWeight={{base:"10px",md:'5px',lg:'10px'}}>
+            Hagamos algo nuevo,diferente y mas significativo o hagamos algo mas
             visual o conceptual?
           </Text>
 
@@ -31,7 +31,7 @@ const Formulario = () => {
             position="relative"
             top="53px"
             right="56px"
-            w="40px"
+            w={{base:"40px",md:'0px',lg:'40px'}}
             bg="#D5223A"
             borderRadius="18px"
             p="8px"
@@ -46,7 +46,7 @@ const Formulario = () => {
             position="relative"
             top="53px"
             right="56px"
-            w="40px"
+            w={{base:"40px",md:'0px',lg:'40px'}}
             bg="#D5223A"
             borderRadius="18px"
             p="8px"
@@ -61,7 +61,7 @@ const Formulario = () => {
             position="relative"
             top="53px"
             right="56px"
-            w="40px"
+            w={{base:"40px",md:'0px',lg:'40px'}}
             bg="#D5223A"
             borderRadius="18px"
             p="8px"
@@ -145,7 +145,7 @@ const Formulario = () => {
               p={{ base: "30px", md: "30px" }}
               position="relative"
               left={{ base: "0px", md: "18px" }}
-              w={{base:'53vh',md:'20%'}}
+              w={{base:'53vh',md:'35%',lg:'20%'}}
               borderRadius='5px'
               
               >
