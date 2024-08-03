@@ -17,6 +17,7 @@ import {
   Text,
   Button,
   TabIndicator,
+  Img,
 } from "@chakra-ui/react";
 
 const Portfolio = () => {
@@ -69,28 +70,29 @@ const Portfolio = () => {
           <TabPanels>
             <TabPanel>
               <Flex justifyContent="center" flexWrap="wrap">
+                
                 <Image
-                  p="10px 5px"
-                  alt="Primer pagina web"
-                  boxSize="xl"
+                p="10px 5px"
+                  alt="Seccion de arte"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpo1}
-                />
+                  />
                 <Image
                   p="10px 5px"
                   alt="Seccion de arte"
-                  boxSize="xl"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpo1b}
                 />
                 <Image
                   p="10px 5px"
                   alt="Copia de servicios"
-                  boxSize="xl"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpoa}
                 />
                 <Image
                   p="10px 5px"
                   alt="Copia de registro"
-                  boxSize="xl"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpob}
                 />
               </Flex>
@@ -100,13 +102,13 @@ const Portfolio = () => {
                 <Image
                   p="10px 5px"
                   alt="Copia de servicios"
-                  boxSize="xl"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpoa}
                 />
                 <Image
                   p="10px 5px"
                   alt="Copia de registro"
-                  boxSize="xl"
+                  boxSize={{base:'150%',lg:"xl"}}
                   src={tpob}
                 />
               </Flex>
