@@ -14,7 +14,7 @@ Se realizó utilizando HTML y CSS.Además se utilizó iconos de boostrap y de ic
 
 
 ## Instrucciones de Uso
-⚪ Abre el siguiente link en tu navegador: 🔗 <a href="https://belencabezas.github.io/TpFinal/">Portfolio</a>  
+⚪ Abre el siguiente link en tu navegador: 🔗 <a href="https://belencabezas.github.io/TpFinalReact/">Portfolio</a>  
 
 
 ## 🛠️ Tecnologías Utilizadas
