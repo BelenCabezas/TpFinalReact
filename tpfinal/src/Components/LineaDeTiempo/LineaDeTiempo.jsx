@@ -30,7 +30,8 @@ const LineaDeTiempo = () => {
            borderLeft="solid 3px #D5223A"
            pl={{base:'15px',md:"30px"}}>
             <h1>Paso 01</h1>
-            <Text fontSize={{base:'15px',md:"20px"}}>Estudio Java en RIET</Text>
+            <Text 
+            fontSize={{base:'15px',md:"20px"}}>Estudio Java en RIET</Text>
           </Box>
           <Box
             as="Año"
@@ -47,12 +48,14 @@ const LineaDeTiempo = () => {
           </Box>
         </Flex>
 
-        <Flex as="Linea2" flexDirection="column">
+        <Flex as="Linea2"
+         flexDirection="column">
           <Box as="LineaB"
            borderLeft="solid 3px #D5223A" 
            pl={{base:'15px',md:"30px"}}>
             <h1>Paso 02</h1>
-            <Text fontSize={{base:'15px',md:"20px"}}>Estudio Full stack en UTN</Text>
+            <Text 
+            fontSize={{base:'15px',md:"20px"}}>Estudio Full stack en UTN</Text>
           </Box>
 
           <Box

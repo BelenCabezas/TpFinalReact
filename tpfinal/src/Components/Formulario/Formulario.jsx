@@ -8,10 +8,25 @@ import "@fontsource/dm-serif-display";
 const Formulario = () => {
   return (
     <Box as="Form" bg="#19142A" color="white" pt="80px">
-      <Flex as="Completo" justifyContent="space-around">
-        <Box as="Contactame" pl="10px" fontFamily="dm-serif-display">
-          <Text fontSize="40px">Contactame</Text>
-          <Text fontSize="20px" pt="20px" fontWeight="10px">
+
+{/*<Flex 
+         mt={{base: "30px",md:'50%',lg:"0"}}
+        className="responsive" 
+        align={{base:"center",md:'center',lg:'center'
+        justify="space-between"
+        direction={{base:"column",md:'column', lg:"row"}}>*/}
+
+      <Flex as="Completo" 
+      align={{base:"center",md:'unset',lg:'unset'}} 
+      direction={{base:"column",md:'unset'}}
+      justifyContent="space-around">
+        <Box as="Contactame" pl={{base:'20%',md:"10px"}}
+         fontFamily="dm-serif-display">
+          <Text 
+          fontSize={{base:'35px',md:"40px"}}>Contactame</Text>
+          <Text fontSize='20px'
+           pt="20px"
+           fontWeight="10px">
             Hagamos algo nuevo,diferente y mas significativo o hamos algo mas
             visual o conceptual?
           </Text>
@@ -67,8 +82,11 @@ const Formulario = () => {
           flexDir="column"
           mb="80px"
           fontFamily="dm-serif-display"
+          align={{base:"center",md:'unset',lg:'unset'}} 
+         
         >
-          <Text fontSize="40px" pb="20px">
+          <Text fontSize="40px" pb="20px"
+          pt={{base:'30px',md:'unset'}}>
             Dejame tu consulta
           </Text>
 
@@ -123,14 +141,14 @@ const Formulario = () => {
             <Button
               display="flex"
               justifyContent="start"
-              mt="40px"
+              mt={{base:'20px',md:"40px"}}
               bg="#1D182F"
               color="white"
               _hover={{ bg: "#D6223B" }}
               px="14%"
               py="8%"
               position="relative"
-              left="18px"
+              left={{base:'-10px',md:"18px"}}
             >
               Enviar
             </Button>
