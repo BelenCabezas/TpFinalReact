@@ -18,7 +18,7 @@ const Hero = () => {
         h="100vh">
 
         <Flex 
-         mt={{base: "30px",md:'50%',lg:"0"}}
+         mt={{base: "30px",md:'10%',lg:"0"}}
         className="responsive" 
         align={{base:"center",md:'center',lg:'center'}} 
         justify="space-between"
@@ -59,9 +59,9 @@ const Hero = () => {
         </Flex>
 
         <Box 
-        w="46%" 
+        w={{base:'46%',md:'38%',lg:"46%" }}
         position="relative" 
-        top={{base:'-5px',md:'-35px'}}>
+        top={{base:'-5px',md:'0px',lg:'-35px'}}>
           <img
             className="ImagenPresentacion"
             src={portfolio}
@@ -77,22 +77,23 @@ const Hero = () => {
           <div className="Redes">
             <div className="sigueme">
               <Image 
-              w={{base:'0%',md:'unset'}}
+              w={{base:'0%',md:'0%',lg:'unset'}}
               src={barra} />
 
-              <div className="IconosRedes">
+              <Box as="IconosRedes"
+               >
                 <a href="https://www.facebook.com/profile.php?id=100011000144769">
-                  <img src={facebook} alt="Logo facebook" />
+                  <Image  w={{base:'0%',md:'0%',lg:'unset'}} src={facebook} alt="Logo facebook" />
                 </a>
 
                 <a href="https://x.com/be3elu">
-                  <img src={twitter} alt="Logo twitter" />
+                  <Image  w={{base:'0%',md:'0%',lg:'unset'}} src={twitter} alt="Logo twitter" />
                 </a>
 
                 <a href="https://ar.linkedin.com/">
-                  <img src={linkedin} alt="Logo linkedin" />
+                  <Image  w={{base:'0%',md:'0%',lg:'unset'}} src={linkedin} alt="Logo linkedin" />
                 </a>
-              </div>
+              </Box>                 
             </div>
           </div>
         </Flex>

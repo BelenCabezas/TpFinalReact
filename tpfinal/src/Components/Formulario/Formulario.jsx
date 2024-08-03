@@ -2,31 +2,27 @@ import React from "react";
 import telefono from "../../assets/Iconos/telefono.png";
 import email from "../../assets/Iconos/email.png";
 import location from "../../assets/Iconos/location.png";
-import { Box, Button, Flex, Text, Img,Input} from "@chakra-ui/react";
+import { Box, Button, Flex, Text, Img, Input } from "@chakra-ui/react";
 import "@fontsource/dm-serif-display";
 
 const Formulario = () => {
   return (
     <Box as="Form" bg="#19142A" color="white" pt="80px">
+     
 
-{/*<Flex 
-         mt={{base: "30px",md:'50%',lg:"0"}}
-        className="responsive" 
-        align={{base:"center",md:'center',lg:'center'
-        justify="space-between"
-        direction={{base:"column",md:'column', lg:"row"}}>*/}
-
-      <Flex as="Completo" 
-      align={{base:"center",md:'unset',lg:'unset'}} 
-      direction={{base:"column",md:'unset'}}
-      justifyContent="space-around">
-        <Box as="Contactame" pl={{base:'20%',md:"10px"}}
-         fontFamily="dm-serif-display">
-          <Text 
-          fontSize={{base:'35px',md:"40px"}}>Contactame</Text>
-          <Text fontSize='20px'
-           pt="20px"
-           fontWeight="10px">
+      <Flex
+        as="Completo"
+        align={{ base: "center", md: "unset", lg: "unset" }}
+        direction={{ base: "column", md: "unset" }}
+        justifyContent="space-around"
+      >
+        <Box
+          as="Contactame"
+          pl={{ base: "20%", md: "10px" }}
+          fontFamily="dm-serif-display"
+        >
+          <Text fontSize={{ base: "35px", md: "40px" }}>Contactame</Text>
+          <Text fontSize="20px" pt="20px" fontWeight="10px">
             Hagamos algo nuevo,diferente y mas significativo o hamos algo mas
             visual o conceptual?
           </Text>
@@ -82,11 +78,9 @@ const Formulario = () => {
           flexDir="column"
           mb="80px"
           fontFamily="dm-serif-display"
-          align={{base:"center",md:'unset',lg:'unset'}} 
-         
+          align={{ base: "center", md: "unset", lg: "unset" }}
         >
-          <Text fontSize="40px" pb="20px"
-          pt={{base:'30px',md:'unset'}}>
+          <Text fontSize="40px" pb="20px" pt={{ base: "30px", md: "unset" }}>
             Dejame tu consulta
           </Text>
 
@@ -97,7 +91,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Nombre"
               type="text"
-              m='10px'
+              m="10px"
             />
             <Input
               size="lg"
@@ -105,7 +99,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Email"
               type="email"
-              m='10px'
+              m="10px"
             />
           </Flex>
 
@@ -116,7 +110,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Numero"
               type="tel"
-              m='10px'
+              m="10px"
             />
             <Input
               size="lg"
@@ -124,13 +118,13 @@ const Formulario = () => {
               variant="outline"
               placeholder="Presupuesto"
               type="text"
-              m='10px'
+              m="10px"
             />
           </Flex>
 
           <Flex m="10px" p="10px">
             <Input
-              w={{base:'365px',md:"100%"}}
+              w={{ base: "365px", md: "100%" }}
               h="120px"
               position="relative"
               border="solid gray 1px"
@@ -141,23 +135,27 @@ const Formulario = () => {
             />
           </Flex>
 
-          <div>
-            <Button
-              display="flex"
-              justifyContent="start"
-              mt={{base:'15px',md:"40px"}}
+          
+            <Box display="flex"
+              justifyContent={{ base: "unset", md: "start" }}
+              mt={{ base: "15px", md: "40px" }}
               bg="#1D182F"
               color="white"
               _hover={{ bg: "#D6223B" }}
-              px='15%'
-              py="8%"
-              p={{base:'30px',md:'30px'}}
+              p={{ base: "30px", md: "30px" }}
               position="relative"
-              left={{base:'-130px',md:"18px"}}
+              left={{ base: "0px", md: "18px" }}
+              w={{base:'53vh',md:'20%'}}
+              borderRadius='5px'
+              
+              >
+                
+            <button 
             >
               Enviar
-            </Button>
-          </div>
+            </button> 
+                       </Box>
+          
         </Flex>
       </Flex>
     </Box>
