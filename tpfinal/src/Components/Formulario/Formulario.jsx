@@ -97,6 +97,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Nombre"
               type="text"
+              m='10px'
             />
             <Input
               size="lg"
@@ -104,6 +105,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Email"
               type="email"
+              m='10px'
             />
           </Flex>
 
@@ -114,6 +116,7 @@ const Formulario = () => {
               variant="outline"
               placeholder="Numero"
               type="tel"
+              m='10px'
             />
             <Input
               size="lg"
@@ -121,13 +124,14 @@ const Formulario = () => {
               variant="outline"
               placeholder="Presupuesto"
               type="text"
+              m='10px'
             />
           </Flex>
 
           <Flex m="10px" p="10px">
             <Input
-              w="100%"
-              h="100px"
+              w={{base:'365px',md:"100%"}}
+              h="120px"
               position="relative"
               border="solid gray 1px"
               variant="outline"
@@ -141,14 +145,15 @@ const Formulario = () => {
             <Button
               display="flex"
               justifyContent="start"
-              mt={{base:'20px',md:"40px"}}
+              mt={{base:'15px',md:"40px"}}
               bg="#1D182F"
               color="white"
               _hover={{ bg: "#D6223B" }}
-              px="14%"
+              px='15%'
               py="8%"
+              p={{base:'30px',md:'unset'}}
               position="relative"
-              left={{base:'-10px',md:"18px"}}
+              left={{base:'-130px',md:"18px"}}
             >
               Enviar
             </Button>
