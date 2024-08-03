@@ -11,29 +11,35 @@ const LineaDeTiempo = () => {
         fontFamily="Cactus Classical Serif"
         textAlign="center"
       >
-        <Text pt="80px" fontSize="40px" fontWeight="lighter">
+        <Text pt="80px" fontSize={{base:'30px',md:"40px"}} fontWeight="lighter">
           Mi Experiencia
         </Text>
-        <Text fontSize="20px" fontWeight="lighter" mt="20px" mb="30px">
+        <Text fontSize={{base:'15px',md:"20px"}} fontWeight="lighter" mt="20px" mb="30px">
           Cronograma sobre mis estudios y experiencia en el mundo it
         </Text>
       </Box>
 
       {/*<!--Linea de tiempo-->*/}
 
-      <Flex as="Lineas2" justifyContent="space-around" padding="15px">
-        <Flex as="Linea1" flexDirection="column">
-          <Box as="LineaA" borderLeft="solid 3px #D5223A" pl="30px">
+      <Flex as="Lineas2"
+       justifyContent="space-around" 
+       padding="15px">
+        <Flex as="Linea1" 
+        flexDirection="column">
+          <Box as="LineaA"
+           borderLeft="solid 3px #D5223A"
+           pl={{base:'15px',md:"30px"}}>
             <h1>Paso 01</h1>
-            <Text fontSize="20px">Estudio Java en RIET</Text>{" "}
+            <Text fontSize={{base:'15px',md:"20px"}}>Estudio Java en RIET</Text>
           </Box>
           <Box
             as="Año"
             bg="#D5223A"
             mt="60px"
             textAlign="center"
-            padding="20px"
-            fontSize="20px"
+            padding={{base:'10px',md:"20px"}}
+            mr={{base:'10px',md:'unset'}}
+            fontSize={{base:'15px',md:"20px"}}
             borderRadius="3px"
             mb="50px"
           >
@@ -42,9 +48,11 @@ const LineaDeTiempo = () => {
         </Flex>
 
         <Flex as="Linea2" flexDirection="column">
-          <Box as="LineaB" borderLeft="solid 3px #D5223A" pl="30px">
+          <Box as="LineaB"
+           borderLeft="solid 3px #D5223A" 
+           pl={{base:'15px',md:"30px"}}>
             <h1>Paso 02</h1>
-            <Text fontSize="20px">Estudio Full stack en UTN</Text>
+            <Text fontSize={{base:'15px',md:"20px"}}>Estudio Full stack en UTN</Text>
           </Box>
 
           <Box
@@ -52,8 +60,9 @@ const LineaDeTiempo = () => {
             bg="#D5223A"
             mt="60px"
             textAlign="center"
-            padding="20px"
-            fontSize="20px"
+            padding={{base:'10px',md:"20px"}}
+            ml={{base:'10px',md:'unset'}}
+            fontSize={{base:'15px',md:"20px"}}
             borderRadius="3px"
             mb="50px"
           >
