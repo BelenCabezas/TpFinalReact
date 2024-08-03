@@ -4,7 +4,7 @@ import barra from "../../assets/Imagenes/barra.png";
 import facebook from "../../assets/Iconos/facebook.svg";
 import twitter from "../../assets/Iconos/twitter.svg";
 import linkedin from "../../assets/Iconos/linkedin.svg";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text,Image } from "@chakra-ui/react";
 import "@fontsource/cactus-classical-serif";
 
 const Hero = () => {
@@ -76,7 +76,9 @@ const Hero = () => {
          
           <div className="Redes">
             <div className="sigueme">
-              <img src={barra} />
+              <Image 
+              w={{base:'0%',md:'unset'}}
+              src={barra} />
 
               <div className="IconosRedes">
                 <a href="https://www.facebook.com/profile.php?id=100011000144769">

@@ -151,7 +151,7 @@ const Formulario = () => {
               _hover={{ bg: "#D6223B" }}
               px='15%'
               py="8%"
-              p={{base:'30px',md:'unset'}}
+              p={{base:'30px',md:'30px'}}
               position="relative"
               left={{base:'-130px',md:"18px"}}
             >
